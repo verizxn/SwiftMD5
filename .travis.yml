@@ -1,6 +1,0 @@
-language: swift 
-osx_image:  xcode8.2
-install: true
-script:
-  - set -o pipefail
-  - xcodebuild test -scheme SwiftMD5 -configuration Debug | xcpretty -c
